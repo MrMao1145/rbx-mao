@@ -1,0 +1,22 @@
+{
+  "pages": [{
+    "path": "pages/index/index",
+    "style": {
+      "navigationBarTitleText": "RBXMAO",
+      "app-plus": {
+        "titleNView": {
+          "autoBackButton": true, // 关闭自动返回按钮
+          "buttons": [{
+            "type": "back",
+            "float": "left",
+            "fontSize": "16px",
+            "color": "#000000",
+            "colorPressed": "#666666",
+            "fontWeight": "bold",
+            "width": "80px" // 确保按钮可点击区域
+          }]
+        }
+      }
+    }
+  }]
+}
